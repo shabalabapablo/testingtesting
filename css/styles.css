@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    background-color: #F8D6AF;
+}
+
+/*=========Start of Header=======*/
+
+.nav-bar{
+    background-color: #3E3A30;
+    height: 80px;
+    border-bottom: 5px solid #8B976E;
+    width: 100%;
+    position: fixed;
+}
+.nav-list{
+     list-style-type: none;
+     float: right;
+ }
+.nav-item{
+     float: left;
+     padding: 10px;
+ }
+.color{
+     color: #8B976E; /*greenish color*/
+     text-decoration: none;
+ }
+ .color:after{
+     content: "|";
+     padding: 5px;
+ }
+ .color:hover{
+     color: white;
+ }
+#logo{
+    height: 90px;
+    width: 90px;
+    /*padding-bottom: 20px;*/
+    /*margin-bottom: 20px;*/
+}
+
+/*============End of Header=========*/
+
+/*========Banner===========*/
+.banner{
+    background-image: url('../img/lights-cheekwood.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner-text-background{
+    color: white;
+    text-align: center;
+    font-family:Oswald;
+    height: 150px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.banner-text{
+    padding-top: 200px;
+}
+
+/*========Home Section===========*/
+.some-text{
+    width: 500px;
+    text-align: left;
+    border: 2px double #3E3A30;
+    float: left;
+    padding: 17px;
+    margin-left: 40px;
+    margin-bottom: 30px
+}
+.feels{
+    width: 500px;
+    text-align: left;
+    border: 2px double #3E3A30;
+    float: right;
+    padding: 17px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+/*====================About Page=====================*/
+
+.container{
+    width: 100%;
+}
+
+.column1{
+    margin-left: 75px;
+    margin-top: 95px;
+    height: 400px;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.avengers{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    
+}
+
+.column2{
+    margin-top: 95px;
+    height: 400px;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.clouds{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+
+.column3{
+    margin-right: 75px;
+    margin-top: 95px;
+    height: 400px;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.storm-trooper{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+
+/*=====================End of About Page====================*/
+
+/*==============Contact Info===============*/
+
+.main-body{
+    height: 40%;
+}
+
+.body-headline{
+    text-align: center;
+}
+
+#map{
+    text-align: center;
+    margin: 20px 0px;
+    height: 500px;
+    width: 100%;
+}
+
+/*================Contact Form================*/
+
+.contact-form{
+    width: 800px;
+    height: 700px;
+    border: 4px solid black;
+    background-color: grey;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+/*Start of Footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    clear: both;
+}
+.footer-section{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.footer-section p{
+    color: #fff;
+}
+
+.submit-text{
+    display: inline;
+    margin-left: 15px;
+    padding: right;
+}
+
+.submit{
+    float: left;
+    margin-top: 30px;
+}
+
+.submit-button{
+    margin-left: 5px;
+}
+
+#social{
+    text-align: center;
+}
+
+.fab{
+    font-size: 2em;
+    color: #fff;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.fa-instagram{
+    color: #cd486b;
+}
+
+.fa-instagram:hover{
+    color: white;
+}
+
+.fa-snapchat-square{
+    color: #fffc00;
+}
+
+.fa-snapchat-square:hover{
+    color: white;
+}
+
+.button{
+    color: white;
+    margin-top: 30px;
+}
+
+.copyright{
+    margin-bottom: 20px;
+}
+
+/*End of Footer*/
+ 
